@@ -6,7 +6,7 @@ import LaDolce from './pages/LaDolce'
 const Rotes = () => (
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/LaDolce" element={<LaDolce />} />
+    <Route path="/ladolce" element={<LaDolce />} />
   </Routes>
 )
 
