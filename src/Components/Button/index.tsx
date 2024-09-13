@@ -6,7 +6,7 @@ type Props = {
 }
 
 const Button = ({ text, link }: Props) => (
-  <ButtonLink href={link}>{text}</ButtonLink>
+  <ButtonLink to={link}>{text}</ButtonLink>
 )
 
 export default Button

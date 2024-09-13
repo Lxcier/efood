@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import { cores } from '../../styles'
 
-export const ButtonLink = styled.a`
+export const ButtonLink = styled(Link)`
   cursor: pointer;
   color: ${cores.secundary};
   background-color: ${cores.primary};
